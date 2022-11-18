@@ -1,0 +1,111 @@
+{
+	"intents": [
+		{
+			"tag":"greeting",
+			"patterns":["Hey","Hello","What's up","How is it going","Hi","God day"],
+			"responses":["Hello Sir", "Hello, What can i do for you"]
+		},
+
+		{
+			"tag":"about",
+			"patterns":["Who are you","Tell me about yourself"],
+			"responses":["I am Jarvis, a virtual assistant"]
+		},
+
+		{
+			"tag":"exit",
+			"patterns":["Bye","Stop","Quit","I want to quit","Goodbye","I want to exit","I have to go"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"built",
+			"patterns":["Who built you?", "Who made you?"],
+			"responses":["I am made by BVM Computer engineers"]
+		},
+
+		{
+			"tag":"opencmd",
+			"patterns":["Jarvis open cmd", "Jarvis open command promt", "Open cmd"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"thanks",
+			"patterns":["Thanks ", "Thanks Jarvis", "Thank you", "Thank you Jarvis"],
+			"responses":["Your most welcome", "My plasure"]
+		},
+		
+		{
+			"tag":"chrome",
+			"patterns":["Jarvis open chrome ", "jarvis open chrome browser", "open chrome", "open google", "Jarvis open goodle"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"create_note",
+			"patterns":["Create a note","I want to create a note", "new note","Jarvis create a new note", "Jarvis create a note"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"add_todo",
+			"patterns":["Jarvis add to do", "new to do", "create to do", "Jarvis create to do"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"show_todo",
+			"patterns":["Jarvis show my to do","show to do list", "to do list"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"youtube",
+			"patterns":["Jarvis open youtube","open youtube"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"vbm",
+			"patterns":["Jarvis open vbm site","open birla vidya mandir official site","open VBM official site"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"news",
+			"patterns":["Jarvis open news","news", "play news"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"twitter",
+			"patterns":["Jarvis open twitter","twitter", "play twitter"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"facebook",
+			"patterns":["Jarvis open facebook","facebook", "play facebook"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"editor",
+			"patterns":["Jarvis open code editor","code editor", "open sublime","Jarvis open sublime"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"time",
+			"patterns":["Jarvis What's the time","the time", "tell me time","time please"],
+			"responses":[""]
+		},
+
+		{
+			"tag":"wikipedia",
+			"patterns":["Jarvis open wikipedia","open wikipedia", "wikipedia please"],
+			"responses":[""]
+		}
+	]
+}
